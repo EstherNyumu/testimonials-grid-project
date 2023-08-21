@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.main-container{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top:8%;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:500px 300px auto;
+    gap: 30px;
+}
+.grid-item1{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url("../../images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 350px 0;
+    width: 490px;
+    height: 33vh;
+
+}
+.grid-item2{
+    background-color: hsl(217, 19%, 35%);
+    /*color: hsl(0, 0%, 100%);*/
+    width: 230px;
+    height: 33vh;
+    margin-left:-0.5rem;
+}
+.grid-item3{
+    background-color: hsl(0, 0%, 100%);
+    width: 210px;
+    height: 70vh;
+    margin-left:-4.8rem;
+}
+.grid-item4{
+    background-color: hsl(0, 0%, 100%);
+    width: 225px;
+    height: 30vh;
+    margin-top: -16rem;
+}
+.grid-item5{
+    background-color: hsl(219, 29%, 14%);
+    /*color: hsl(0, 0%, 100%);*/
+    width: 490px;
+    height: 30vh;
+    margin-top: -16rem;
+    margin-left:-17rem;
+}
+.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5{
+    border-radius: 10px;
+}
+.white-name,.main-p{
+    color: hsl(0, 0%, 100%);
+}
+.white-name,.gray-name{
+    margin-top: -0.1rem;
+}
+.grad-p{
+    color: hsl(0, 0%, 100%);
+    opacity: 50%;
+}
+.desc-p{
+    color: hsl(0, 0%, 100%);
+    opacity: 70%;
+    font-size: 12px;
+}
+.gray-name{
+    color: hsl(219, 29%, 14%);
+}
+.gray-grad-p{
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+}
+.gray-desc-p{
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+    font-size: 12px;
+}
+.main-p{
+     font-size: 17px;
+}
+.gray-main-p{
+    color: hsl(219, 29%, 14%);
+    font-size: 17px;
+}
+.profile{
+    display: flex;
+}
+.profile-image{
+    border-radius: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.grad-p,.gray-grad-p{
+    margin-left: 39px;
+    margin-top: -0.9rem;
+}
+.grid-content{
+    margin-left: 28px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
